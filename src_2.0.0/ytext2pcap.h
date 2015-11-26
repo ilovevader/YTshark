@@ -91,7 +91,7 @@ void YtmodeReset()
 
     // Time code of packet, derived from packet_preamble
     ts_sec = 0;
-    ts_usec = 0;
+    ts_nsec = 0;
     ts_fmt = NULL;
 
     // Input file
